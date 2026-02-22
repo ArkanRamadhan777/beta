@@ -5,13 +5,13 @@ const OrganizationPage = () => {
   const leadership = [
     {
       name: 'Ahmad Fauzi',
-      position: 'Ketua OSIS',
+      position: 'Ketua',
       image: 'https://ui-avatars.com/api/?name=Ahmad+Fauzi&size=200&background=22d3ee&color=fff&bold=true',
-      description: 'Memimpin dan mengkoordinir seluruh kegiatan OSIS'
+      description: 'Memimpin dan mengkoordinir seluruh kegiatan organisasi'
     },
     {
       name: 'Siti Nurhaliza',
-      position: 'Wakil Ketua OSIS',
+      position: 'Wakil Ketua',
       image: 'https://ui-avatars.com/api/?name=Siti+Nurhaliza&size=200&background=3b82f6&color=fff&bold=true',
       description: 'Mendampingi Ketua dalam menjalankan organisasi'
     },
@@ -83,13 +83,13 @@ const OrganizationPage = () => {
   const advisors = [
     {
       name: 'Drs. Bambang Suryanto, M.Pd',
-      position: 'Pembina OSIS',
-      role: 'Guru BK'
+      position: 'Pembina Organisasi',
+      role: 'Penasihat Senior'
     },
     {
       name: 'Sri Wahyuni, S.Pd',
       position: 'Wakil Pembina',
-      role: 'Guru PKn'
+      role: 'Penasihat Lapangan'
     }
   ];
 
@@ -97,8 +97,8 @@ const OrganizationPage = () => {
     <>
       <SEO 
         title="Struktur Organisasi"
-        description="Struktur organisasi OSIS dan pembagian divisi sekolah. Kenali pengurus dan divisi yang ada."
-        keywords="struktur OSIS, pengurus OSIS, divisi OSIS, organisasi sekolah"
+        description="Struktur organisasi dan pembagian divisi. Kenali pengurus dan divisi yang ada."
+        keywords="struktur organisasi, pengurus organisasi, divisi organisasi"
       />
 
       <div className="min-h-screen pt-24 pb-16 px-6 sm:px-8 bg-neutral-cream w-full max-w-full overflow-hidden relative">
@@ -126,7 +126,7 @@ const OrganizationPage = () => {
 
           {/* Pembina Section */}
           <div className="mb-20">
-            <h2 className="font-outfit font-black text-4xl md:text-5xl text-gray-900 mb-10 text-center">Pembina OSIS</h2>
+            <h2 className="font-outfit font-black text-4xl md:text-5xl text-gray-900 mb-10 text-center">Pembina Organisasi</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
               {advisors.map((advisor, index) => (
                 <div 
@@ -239,10 +239,10 @@ const OrganizationPage = () => {
                 Tertarik Bergabung?
               </h2>
               <p className="text-white/90 text-xl font-bold mb-10 max-w-2xl mx-auto">
-                Kami selalu terbuka untuk anggota baru yang ingin berkontribusi dalam organisasi sekolah 🚀
+                Kami selalu terbuka untuk anggota baru yang ingin berkontribusi dalam organisasi 🚀
               </p>
               <a 
-                href="https://wa.me/628123456789?text=Halo,%20saya%20tertarik%20bergabung%20dengan%20OSIS"
+                href="https://wa.me/6287760769086?text=Halo,%20saya%20tertarik%20bergabung%20dengan%20ganexa"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-3 bg-white text-accent-primary font-black text-lg px-10 py-5 rounded-2xl hover:scale-110 transition-all duration-300 border-4 border-gray-900 shadow-2xl"

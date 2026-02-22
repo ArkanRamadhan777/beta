@@ -12,9 +12,9 @@ const Footer = () => {
       { label: 'Kontak', path: '/contact' },
     ],
     sosialMedia: [
-      { label: 'Instagram', url: 'https://instagram.com/beta.school' },
-      { label: 'TikTok', url: 'https://tiktok.com/@beta.school' },
-      { label: 'Email', url: 'mailto:contact@beta.school' },
+      { label: 'Instagram', url: 'https://instagram.com/ganexa.team' },
+      { label: 'TikTok', url: 'https://tiktok.com/@ganexa.team' },
+      { label: 'Email', url: 'mailto:ganexa.team@gmail.com' },
     ],
   };
 
@@ -72,7 +72,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-slate-800 text-center">
           <p className="text-gray-500 text-sm">
-            © {currentYear} BETA. Platform Organisasi Sekolah Modern. All rights reserved.
+            © {currentYear} BETA. Platform Organisasi Modern. Made by <span className="text-cyan-400">ganexa</span>. All rights reserved.
           </p>
         </div>
       </div>

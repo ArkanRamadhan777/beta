@@ -27,7 +27,7 @@ const Contact = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-12">
             {/* Email */}
             <a 
-              href="mailto:contact@beta.school"
+              href="mailto:ganexa.team@gmail.com"
               className="group bg-accent-primary p-8 rounded-[2.5rem] border-4 border-gray-900 shadow-xl hover:scale-110 hover:-rotate-2 transition-all duration-300"
             >
               <div className="flex flex-col items-center text-center gap-4">
@@ -38,14 +38,14 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="font-outfit font-black text-2xl text-white mb-2">Email</h3>
-                  <p className="text-white/90 font-semibold text-sm">contact@beta.school</p>
+                  <p className="text-white/90 font-semibold text-sm">ganexa.team@gmail.com</p>
                 </div>
               </div>
             </a>
             
             {/* WhatsApp */}
             <a 
-              href="https://wa.me/1234567890"
+              href="https://wa.me/6287760769086"
               target="_blank"
               rel="noopener noreferrer"
               className="group bg-accent-soft p-8 rounded-[2.5rem] border-4 border-gray-900 shadow-xl hover:scale-110 hover:rotate-2 transition-all duration-300"
@@ -67,7 +67,7 @@ const Contact = () => {
           {/* Social Media - Playful Cards */}
           <div className="grid grid-cols-2 gap-4 mb-12">
             <a 
-              href="https://instagram.com/beta.school"
+              href="https://instagram.com/ganexa.team"
               target="_blank"
               rel="noopener noreferrer"
               className="group bg-gradient-to-br from-purple-500 to-pink-500 p-6 rounded-3xl border-4 border-gray-900 shadow-lg hover:scale-105 transition-all duration-300"
@@ -81,7 +81,7 @@ const Contact = () => {
             </a>
             
             <a 
-              href="https://tiktok.com/@beta.school"
+              href="https://tiktok.com/@ganexa.team"
               target="_blank"
               rel="noopener noreferrer"
               className="group bg-gray-900 p-6 rounded-3xl border-4 border-gray-900 shadow-lg hover:scale-105 transition-all duration-300"

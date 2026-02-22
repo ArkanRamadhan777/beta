@@ -6,13 +6,13 @@ const EventsPage = () => {
   const events = [
     {
       id: 1,
-      title: 'Pelatihan Kepemimpinan Siswa 2026',
+      title: 'Pelatihan Kepemimpinan 2026',
       date: '15 Maret 2026',
       time: '08:00 - 15:00',
-      location: 'Aula Sekolah',
+      location: 'Aula',
       category: 'Workshop',
       image: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&q=80',
-      description: 'Workshop intensif untuk mengembangkan kemampuan kepemimpinan anggota OSIS dan meningkatkan soft skills siswa.',
+      description: 'Workshop intensif untuk mengembangkan kemampuan kepemimpinan anggota organisasi dan meningkatkan soft skills.',
       status: 'upcoming'
     },
     {
@@ -39,13 +39,13 @@ const EventsPage = () => {
     },
     {
       id: 4,
-      title: 'Rapat Koordinasi OSIS',
+      title: 'Rapat Koordinasi',
       date: '5 Maret 2026',
       time: '14:00 - 16:00',
-      location: 'Ruang OSIS',
+      location: 'Ruang Rapat',
       category: 'Rapat',
       image: 'https://images.unsplash.com/photo-1517842645767-c639042777db?w=800&q=80',
-      description: 'Koordinasi bulanan pengurus OSIS untuk evaluasi program dan perencanaan kegiatan bulan depan.',
+      description: 'Koordinasi bulanan pengurus untuk evaluasi program dan perencanaan kegiatan bulan depan.',
       status: 'completed'
     },
     {
@@ -91,8 +91,8 @@ const EventsPage = () => {
     <>
       <SEO 
         title="Event & Kegiatan"
-        description="Daftar event dan kegiatan organisasi sekolah. Bergabunglah dengan berbagai kegiatan menarik dan bermanfaat."
-        keywords="event sekolah, kegiatan OSIS, lomba sekolah, workshop siswa"
+        description="Daftar event dan kegiatan organisasi. Bergabunglah dengan berbagai kegiatan menarik dan bermanfaat."
+        keywords="event, kegiatan organisasi, lomba, workshop"
       />
 
       <div className="min-h-screen pt-24 pb-16 px-6 sm:px-8 bg-neutral-cream w-full max-w-full overflow-hidden relative">

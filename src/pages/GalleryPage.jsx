@@ -59,9 +59,9 @@ const GalleryPage = () => {
     {
       id: 8,
       url: 'https://images.unsplash.com/photo-1517842645767-c639042777db?w=800&q=80',
-      title: 'Rapat OSIS',
+      title: 'Rapat Koordinasi',
       category: 'event',
-      description: 'Rapat koordinasi pengurus OSIS'
+      description: 'Rapat koordinasi pengurus'
     },
     {
       id: 9,
@@ -131,8 +131,8 @@ const GalleryPage = () => {
     <>
       <SEO 
         title="Galeri"
-        description="Galeri foto kegiatan, event, dan fasilitas organisasi sekolah. Lihat dokumentasi berbagai momen berharga."
-        keywords="galeri sekolah, foto kegiatan OSIS, dokumentasi event sekolah, fasilitas sekolah"
+        description="Galeri foto kegiatan, event, dan fasilitas organisasi. Lihat dokumentasi berbagai momen berharga."
+        keywords="galeri, foto kegiatan, dokumentasi event, fasilitas"
       />
 
       <div className="min-h-screen pt-24 pb-16 px-6 sm:px-8 bg-neutral-cream w-full max-w-full overflow-hidden relative">

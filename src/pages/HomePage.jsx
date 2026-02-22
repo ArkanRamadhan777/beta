@@ -7,10 +7,10 @@ const HomePage = () => {
   const recentEvents = [
     {
       id: 1,
-      title: 'Pelatihan Kepemimpinan Siswa 2026',
+      title: 'Pelatihan Kepemimpinan 2026',
       date: '15 Maret 2026',
       image: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&q=80',
-      description: 'Workshop intensif untuk mengembangkan kemampuan kepemimpinan anggota OSIS.'
+      description: 'Workshop intensif untuk mengembangkan kemampuan kepemimpinan anggota.'
     },
     {
       id: 2,
@@ -39,8 +39,8 @@ const HomePage = () => {
     <>
       <SEO 
         title="Beranda"
-        description="Platform Organisasi Sekolah Modern untuk Indonesia. Transformasi lembaga pendidikan dengan teknologi terkini."
-        keywords="BETA, organisasi sekolah, OSIS, manajemen sekolah, platform pendidikan"
+        description="Platform Organisasi Modern untuk Indonesia. Transformasi lembaga dengan teknologi terkini."
+        keywords="BETA, organisasi, manajemen, platform modern"
       />
       
       {/* Hero Section */}

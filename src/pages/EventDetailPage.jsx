@@ -7,14 +7,14 @@ const EventDetailPage = () => {
   // Sample events data (in real app, this would come from API/state management)
   const eventsData = {
     1: {
-      title: 'Pelatihan Kepemimpinan Siswa 2026',
+      title: 'Pelatihan Kepemimpinan 2026',
       date: '15 Maret 2026',
       time: '08:00 - 15:00',
-      location: 'Aula Sekolah',
+      location: 'Aula',
       category: 'Workshop',
       image: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=1200&q=80',
-      description: 'Workshop intensif untuk mengembangkan kemampuan kepemimpinan anggota OSIS dan meningkatkan soft skills siswa dalam menghadapi tantangan organisasi.',
-      fullDescription: `Workshop Pelatihan Kepemimpinan Siswa 2026 adalah program intensif yang dirancang khusus untuk mengembangkan kemampuan kepemimpinan anggota OSIS dan pengurus organisasi sekolah lainnya.
+      description: 'Workshop intensif untuk mengembangkan kemampuan kepemimpinan anggota organisasi dan meningkatkan soft skills.',
+      fullDescription: `Workshop Pelatihan Kepemimpinan 2026 adalah program intensif yang dirancang khusus untuk mengembangkan kemampuan kepemimpinan anggota organisasi dan pengurus lainnya.
 
 Dalam workshop ini, peserta akan mendapatkan pelatihan komprehensif mengenai:
 • Dasar-dasar kepemimpinan dan team building
@@ -24,13 +24,13 @@ Dalam workshop ini, peserta akan mendapatkan pelatihan komprehensif mengenai:
 • Public speaking dan presentasi
 
 Workshop akan dipandu oleh fasilitator berpengalaman dan menggunakan metode pembelajaran interaktif, games, dan studi kasus nyata.`,
-      organizer: 'OSIS SMA Negeri 1',
-      contact: 'osis@smkn1.sch.id',
-      whatsapp: '628123456789',
+      organizer: 'Tim Ganexa',
+      contact: 'ganexa.team@gmail.com',
+      whatsapp: '6287760769086',
       requirements: [
-        'Anggota OSIS atau pengurus organisasi sekolah',
+        'Anggota organisasi atau pengurus',
         'Membawa alat tulis',
-        'Menggunakan seragam sekolah',
+        'Berpakaian rapi',
         'Membawa bekal makan siang'
       ],
       rundown: [
@@ -62,11 +62,11 @@ Kategori Lomba:
 • Tari Kreasi
 
 Setiap kelas dapat mengirimkan maksimal 2 tim untuk setiap kategori. Pemenang akan mendapatkan piala bergilir dan hadiah menarik!`,
-      organizer: 'Divisi Seni & Budaya OSIS',
-      contact: 'seni@smkn1.sch.id',
-      whatsapp: '628123456789',
+      organizer: 'Divisi Seni & Budaya',
+      contact: 'ganexa.team@gmail.com',
+      whatsapp: '6287760769086',
       requirements: [
-        'Mendaftar melalui wali kelas',
+        'Mendaftar melalui koordinator',
         'Maksimal 5 anggota per tim',
         'Membawa peralatan sendiri',
         'Karya harus original'
@@ -96,14 +96,14 @@ Kegiatan yang akan dilakukan:
 • Pemeriksaan kesehatan gratis
 
 Mari bersama-sama berbagi kebahagiaan dengan masyarakat!`,
-      organizer: 'MPK & OSIS',
-      contact: 'mpk@smkn1.sch.id',
-      whatsapp: '628123456789',
+      organizer: 'Tim Organisasi',
+      contact: 'ganexa.team@gmail.com',
+      whatsapp: '6287760769086',
       requirements: [
-        'Menggunakan seragam lapangan',
-        'Membawa peralatan kerja (sapu, cangkul, dll)',
+        'Menggunakan pakaian rapi',
+        'Membawa peralatan kerja',
         'Membawa bekal makan',
-        'Berkumpul pukul 06:45 WIB'
+        'Berkumpul tepat waktu'
       ],
       rundown: [
         { time: '07:00 - 07:30', activity: 'Berangkat ke Lokasi' },
@@ -115,14 +115,14 @@ Mari bersama-sama berbagi kebahagiaan dengan masyarakat!`,
       ]
     },
     4: {
-      title: 'Rapat Koordinasi OSIS',
+      title: 'Rapat Koordinasi',
       date: '5 Maret 2026',
       time: '14:00 - 16:00',
-      location: 'Ruang OSIS',
+      location: 'Ruang Rapat',
       category: 'Rapat',
       image: 'https://images.unsplash.com/photo-1517842645767-c639042777db?w=1200&q=80',
-      description: 'Koordinasi bulanan pengurus OSIS untuk evaluasi program dan perencanaan kegiatan bulan depan.',
-      fullDescription: `Rapat Koordinasi OSIS merupakan agenda rutin bulanan untuk evaluasi program yang telah berjalan dan perencanaan kegiatan bulan berikutnya.
+      description: 'Koordinasi bulanan pengurus untuk evaluasi program dan perencanaan kegiatan bulan depan.',
+      fullDescription: `Rapat Koordinasi merupakan agenda rutin bulanan untuk evaluasi program yang telah berjalan dan perencanaan kegiatan bulan berikutnya.
 
 Agenda Rapat:
 • Laporan pelaksanaan program bulan lalu
@@ -131,10 +131,10 @@ Agenda Rapat:
 • Pembahasan anggaran
 • Koordinasi antar divisi
 
-Seluruh pengurus OSIS wajib hadir tepat waktu.`,
-      organizer: 'Ketua OSIS',
-      contact: 'ketua.osis@smkn1.sch.id',
-      whatsapp: '628123456789',
+Seluruh pengurus wajib hadir tepat waktu.`,
+      organizer: 'Ketua Tim',
+      contact: 'ganexa.team@gmail.com',
+      whatsapp: '6287760769086',
       requirements: [
         'Wajib hadir bagi seluruh pengurus',
         'Membawa laptop/tablet',
@@ -168,11 +168,11 @@ Penampilan yang akan ditampilkan:
 • Fashion show
 
 Acara terbuka untuk umum. Jangan lewatkan malam yang penuh dengan bakat dan kreativitas!`,
-      organizer: 'Divisi Seni OSIS',
-      contact: 'seni@smkn1.sch.id',
-      whatsapp: '628123456789',
+      organizer: 'Divisi Seni',
+      contact: 'ganexa.team@gmail.com',
+      whatsapp: '6287760769086',
       requirements: [
-        'Tiket gratis (bisa diambil di sekretariat)',
+        'Tiket gratis',
         'Berpakaian sopan',
         'Datang sebelum acara dimulai',
         'Menjaga ketertiban selama acara'
@@ -203,13 +203,13 @@ Pembicara:
 • Praktisi industri
 
 Seminar ini bertujuan untuk membangkitkan semangat siswa dalam menghadapi tantangan dan meraih kesuksesan di masa depan.`,
-      organizer: 'BK & OSIS',
-      contact: 'bk@smkn1.sch.id',
-      whatsapp: '628123456789',
+      organizer: 'Tim Manajemen',
+      contact: 'ganexa.team@gmail.com',
+      whatsapp: '6287760769086',
       requirements: [
         'Membawa alat tulis',
-        'Menggunakan seragam sekolah',
-        'Wajib hadir bagi kelas 10-11',
+        'Berpakaian sopan',
+        'Wajib hadir bagi seluruh anggota',
         'Menjaga ketenangan saat seminar'
       ],
       rundown: [
@@ -254,7 +254,7 @@ Seminar ini bertujuan untuk membangkitkan semangat siswa dalam menghadapi tantan
       <SEO 
         title={event.title}
         description={event.description}
-        keywords={`${event.title}, ${event.category}, event sekolah, kegiatan OSIS`}
+        keywords={`${event.title}, ${event.category}, event, kegiatan organisasi`}
       />
 
       <div className="min-h-screen pt-24 pb-16 px-6 sm:px-8 bg-neutral-cream w-full max-w-full overflow-hidden relative">
